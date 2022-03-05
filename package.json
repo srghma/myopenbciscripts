@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "ddos-stress": "^0.1.0",
+    "node-osc": "^6.1.14"
+  }
+}

@@ -29,6 +29,8 @@ pkgs.mkShell {
         pygame
         python-osc
         numpy
+        pydub
+        pyaudio
       ]
     ))
     poetry
