@@ -37,7 +37,7 @@ def print_volume_handler(address, volume):
     print("[Volume] ~ {0}".format(volume))
 
     volume = 1.0 - volume
-    volume = 0.0 if volume < 0.4 else volume
+    volume = 0.0 if volume < 0.2 else volume
 
     m.set_volume(volume)
 
